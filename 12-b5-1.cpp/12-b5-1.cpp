@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-template <typename T, size_t N>
+template <typename T, int N>
 /***************************************************************************
   函数名称：
   功    能：
@@ -22,7 +22,7 @@ void test(const T (&array)[N])	//将...替换为相应内容
   返 回 值：
   说    明：
 ***************************************************************************/
-template <size_t N>
+template <int N>
 char* tj_strcpy_s(char (&dst)[N], const char* src)	//将...替换为相应内容
 {
 	char* d = dst;		//dst为要复制的目标串
