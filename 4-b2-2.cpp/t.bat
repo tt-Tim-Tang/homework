@@ -1,0 +1,14 @@
+get_input_data t.txt [3-b3-01] | 4-b2-2.exe > 1.txt
+get_input_data t.txt [3-b3-03] | 4-b2-2.exe >> 1.txt
+get_input_data t.txt [3-b3-04] | 4-b2-2.exe >> 1.txt
+get_input_data t.txt [3-b3-05] | 4-b2-2.exe >> 1.txt
+get_input_data t.txt [3-b3-06] | 4-b2-2.exe >> 1.txt
+get_input_data t.txt [3-b3-07] | 4-b2-2.exe >> 1.txt
+get_input_data t.txt [3-b3-08] | 4-b2-2.exe >> 1.txt
+get_input_data t.txt [3-b3-09] | 4-b2-2.exe >> 1.txt
+get_input_data t.txt [3-b3-10] | 4-b2-2.exe >> 1.txt
+get_input_data t.txt [3-b3-11] | 4-b2-2.exe >> 1.txt
+get_input_data t.txt [3-b3-12] | 4-b2-2.exe >> 1.txt
+get_input_data t.txt [3-b3-13] | 4-b2-2.exe >> 1.txt
+get_input_data t.txt [3-b3-15] | 4-b2-2.exe >> 1.txt
+get_input_data t.txt [3-b3-16] | 4-b2-2.exe >> 1.txt

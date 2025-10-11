@@ -1,0 +1,14 @@
+get_input_data test-data.txt [3-b3-01] | 3-b3-2.exe >3-b3-2-result.txt
+get_input_data test-data.txt [3-b3-02] | 3-b3-2.exe >>3-b3-2-result.txt
+get_input_data test-data.txt [3-b3-03] | 3-b3-2.exe >>3-b3-2-result.txt
+get_input_data test-data.txt [3-b3-04] | 3-b3-2.exe >>3-b3-2-result.txt
+get_input_data test-data.txt [3-b3-05] | 3-b3-2.exe >>3-b3-2-result.txt
+get_input_data test-data.txt [3-b3-06] | 3-b3-2.exe >>3-b3-2-result.txt
+get_input_data test-data.txt [3-b3-07] | 3-b3-2.exe >>3-b3-2-result.txt
+get_input_data test-data.txt [3-b3-08] | 3-b3-2.exe >>3-b3-2-result.txt
+get_input_data test-data.txt [3-b3-09] | 3-b3-2.exe >>3-b3-2-result.txt
+get_input_data test-data.txt [3-b3-10] | 3-b3-2.exe >>3-b3-2-result.txt
+get_input_data test-data.txt [3-b3-11] | 3-b3-2.exe >>3-b3-2-result.txt
+get_input_data test-data.txt [3-b3-12] | 3-b3-2.exe >>3-b3-2-result.txt
+get_input_data test-data.txt [3-b3-13] | 3-b3-2.exe >>3-b3-2-result.txt
+get_input_data test-data.txt [3-b3-14] | 3-b3-2.exe >>3-b3-2-result.txt

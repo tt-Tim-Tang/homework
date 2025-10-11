@@ -1,0 +1,1 @@
+get_input_data data.txt [1] | w11-c8-s2.exe > ws2.txt
