@@ -1,19 +1,37 @@
 #include <iostream>
-#include<conio.h>
-#include<iomanip>
 using namespace std;
+
 int main()
 {
-	int arr[4] = { 1,2,3,4 };
-	int (*p)[4] = &arr; // p是指向含4个整数的一维数组的指针
-	cout << *p << endl;
-	cout << *(*p+1) << endl;
-
-	int matrix[3][4] = { {1,2,3,4},{5,6,7,8},{9,10,11,12} };
-	int(*q)[4] = matrix; // q是指向含4个整数的一维数组的指针
-	cout << (*(q + 1)[1]) << endl;
-	cout << ((*(q + 1))[1]) << endl;
-	cout << *(*q + 1) << endl;
-
+	char ch[20];
+	cin.get(ch, 20, '/');  //指针停留在'/'处
+	cout << "The first part is:" << ch << endl;
+	cin.ignore();          //跳过'/'
+	cin.get(ch, 20, '/');  //从'/'后取，非空
+	cout << "The second part is:" << ch << endl;
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
