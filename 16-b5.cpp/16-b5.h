@@ -1,0 +1,58 @@
+//2453805 唐先泽 大数据
+
+#pragma once
+
+#include <iostream>
+using namespace std;
+
+/* 补全TString类的定义，所有成员函数均体外实现，不要在此处体内实现 */
+class TString {
+	private:
+		char *content;
+		int   len;
+		/* 根据需要定义所需的数据成员、成员函数、友元函数等 */
+	public:
+		/* 根据需要定义所需的数据成员、成员函数、友元函数等 */
+		TString(const char* s = nullptr);
+		TString(const TString& s);
+		~TString();
+		int length() const;
+		const char* c_str() const;
+		TString& operator+=(const TString& s);
+		TString& operator+=(const char* s);
+		TString& operator+=(char c);
+		TString& operator-=(const TString& s);
+		TString& operator-=(const char* s);
+		TString& operator-=(char c);
+		TString& operator*=(int n);
+		TString& append(const TString& s);
+		TString& append(const char* s);
+		TString& append(char c);
+		TString& operator=(const TString& s);
+		TString& operator=(const char* s);
+		char& operator[](int index);
+		friend istream& operator>>(istream& in, TString& s);
+		friend ostream& operator<<(ostream& out,const TString& s);
+		friend TString operator+(const TString& s1, const TString& s2);
+		friend TString operator+(const TString& s1, const char* s2);
+		friend TString operator+(const char* s1, const TString& s2);
+		friend TString operator+(char c, const TString& s2);
+		friend TString operator+(const TString& s1, char c);
+		friend TString operator-(const TString& s1, const TString& s2);
+		friend TString operator-(const TString& s1, const char* s);
+		friend TString operator-(const TString& s1, char c);
+		friend TString operator*(const TString& s1, int n);
+		friend TString operator!(const TString& s1);
+		friend int operator>(const TString& s1, const TString& s2);
+		friend int operator<(const TString& s1, const TString& s2);
+		friend int operator==(const TString& s1, const TString& s2);
+		friend int operator>=(const TString& s1, const TString& s2);
+		friend int operator<=(const TString& s1, const TString& s2);
+		friend int operator!=(const TString& s1, const TString& s2);
+		friend int TStringLen(const TString& s);
+
+};
+
+/* 如果有其它全局函数需要声明，写于此处 */
+
+/* 如果有需要的宏定义、只读全局变量等，写于此处 */
